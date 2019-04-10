@@ -1,33 +1,79 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+*, ::after, ::before {
+  box-sizing: inherit;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#canvas {
+  height: 650px;
+  width: 500px;
+  margin: 0 20%;
+  border: 2px solid black;
+  position: absolute;
+  left: 40px;
+  top: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #88b2f7;
 }
 
-.App-link {
-  color: #61dafb;
+.components {
+  height: 650px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#ListView {
+  border-right: solid 2px black;
+  width: 500px;
+}
+
+#SingleView {
+  width: 500px;
+  float: right;
+}
+
+#List-header {
+  text-align: center;
+  height: 50px;
+  border-bottom: 2px solid black;
+}
+
+#Single-header {
+  text-align: center;
+  height: 50px;
+  border-bottom: 2px solid black;
+}
+
+#Contacts-header {
+  width: 500px;
+  border-bottom: 2px solid black;
+  height: 70px;
+  margin-bottom: none;
+}
+
+
+h2 {
+  position: absolute;
+  left: 100px;
+}
+
+#Contacts-list {
+  margin-top: none;
+  width: 500px;
+  height: 463px;
+
+}
+
+#Single-image {
+  width: 500px;
+  height: 300px;
+  border-bottom: 2px solid black;
+
+}
+
+#image-here {
+  position: absolute;
+  right: 200px;
+  top: 100px;
+
 }
